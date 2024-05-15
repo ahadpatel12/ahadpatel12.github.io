@@ -77420,7 +77420,7 @@ A.AC.prototype={
 v0(){var s=0,r=A.U(t.H),q=this,p
 var $async$v0=A.V(function(a,b){if(a===1)return A.R(b,r)
 while(true)switch(s){case 0:A.me("Init called")
-p=A.dA("ws://localhost:8080")
+p=A.dA("wss://echo.websocket.org/")
 q.e=p
 p=A.atO(A.agS(p,null))
 q.f=p
